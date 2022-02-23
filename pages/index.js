@@ -237,7 +237,7 @@ export default function Home() {
       :
       <div className='flex'>
         <p className='font-semibold'> Access your nft at: <br/> </p>
-        <a target="_blank" href={link}> {link} </a>
+        <a target="_blank" rel="noopener noreferrer" href={link}> {link} </a>
       </div>      
       }
 
@@ -251,7 +251,7 @@ export default function Home() {
         <div className='flex flex-col'>
         <div className='flex items-center justify-center'>
           <button className='text-white font-semibold p-2 px-5 rounded-lg drop-shadow-md bg-indigo-500 hover:bg-indigo-700 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300'>
-          <a target="_blank" href='https://testnets.opensea.io/collection/oneliners-test'>
+          <a target="_blank" rel="noopener noreferrer" href='https://testnets.opensea.io/collection/oneliners-test'>
           View collection on OpenSea
           </a>
           </button>
